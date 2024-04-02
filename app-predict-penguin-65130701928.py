@@ -20,8 +20,8 @@ st.title("Penguin Species Prediction")
 island_input = st.selectbox('Select island:', ['Torgersen', 'Biscoe', 'Dream'])
 culmen_length_input = st.slider('Enter culmen length:', 0, 100, 37)
 culmen_depth_input = st.number_input('Enter culmen depth in mm (0 to 100):', min_value=0, max_value=100)
-flipper_length_input = st.number_input('Enter flipper length in mm (0 to 200):', min_value=0, max_value=200)
-body_mass_input = st.number_input('Enter body mass in g (1000 to 5000):', min_value=1000, max_value=5000)
+flipper_length_input = st.number_input('Enter flipper length in mm (0 to 500):', min_value=0, max_value=500)
+body_mass_input = st.number_input('Enter body mass in g (1000 to 10,000):', min_value=1000, max_value=10000)
 sex_input = st.selectbox('Select sex:', ['MALE', 'FEMALE'])
 
 # Create a DataFrame with user input
